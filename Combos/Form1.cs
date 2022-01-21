@@ -39,6 +39,9 @@ namespace Combos
             foreach (var combo in Combos.AllCombos) // Переберем все перестановки
                 textBox1.AppendText(combo + Environment.NewLine); // Каждую перестановку выведем на отдельной строке в textbox
 
+            var sb1 = new StringBuilder("123");
+            sb1.Append("123");
+
             // Enviroment.NewLine - специальная переменная, для перехода на новую строку, представляет собой \r\n комбинацию
         }
     }
